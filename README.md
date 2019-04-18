@@ -9,27 +9,27 @@
 [![codecov](https://codecov.io/gh/numpy/numpy/branch/master/graph/badge.svg)](
     https://codecov.io/gh/numpy/numpy)
 
-NumPy is the fundamental package needed for scientific computing with Python.
+NumPy 是使用 Python 做科学计算时所需的基础包。
 
-- **Website (including documentation):** https://www.numpy.org
-- **Mailing list:** https://mail.python.org/mailman/listinfo/numpy-discussion
-- **Source:** https://github.com/numpy/numpy
-- **Bug reports:** https://github.com/numpy/numpy/issues
-- **Contributing:** https://www.numpy.org/devdocs/dev/index.html
+- **官方网站 (包括文档):** https://www.numpy.org
+- **邮件列表:** https://mail.python.org/mailman/listinfo/numpy-discussion
+- **开源站点:** https://github.com/numpy/numpy
+- **Bug 报告:** https://github.com/numpy/numpy/issues
+- **贡献站点:** https://www.numpy.org/devdocs/dev/index.html
 
-It provides:
+NumPy 提供了:
 
-- a powerful N-dimensional array object
-- sophisticated (broadcasting) functions
-- tools for integrating C/C++ and Fortran code
-- useful linear algebra, Fourier transform, and random number capabilities
+- 一种强力的多空间阵列对象
+- 许多娴熟的 (广泛使用的) 函数
+- 许多工具都集成了 C/C++ 和 Fortran 代码
+- 许多有用的线性代数、傅立叶变换和随机数能力
 
-Testing:
+测试:
 
-- NumPy versions &ge; 1.15 require `pytest`
-- NumPy versions &lt; 1.15 require `nose`
+- NumPy 版本大于等于 1.15 需要使用 `pytest` 进行测试
+- NumPy 版本小于 1.15 需要使用 `nose` 进行测试
 
-Tests can then be run after installation with:
+许多测试可以安装后通过运行如下命令来进行测试：
 
     python -c 'import numpy; numpy.test()'
 
