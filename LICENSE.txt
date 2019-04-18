@@ -1,21 +1,15 @@
-Copyright (c) 2005-2019, NumPy Developers.
-All rights reserved.
+Copyright (c) 2005-2019, NumPy 开发者团队。
+保留全部权力。
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
+以源代码和二进制形式使用和再次分发，有或没有修改，都已经过许可符合如下条件：
 
-    * Redistributions of source code must retain the above copyright
-       notice, this list of conditions and the following disclaimer.
+    * 源代码的再次分发必须保留以上版权提醒，本条件清单以及如下要求。
 
-    * Redistributions in binary form must reproduce the above
-       copyright notice, this list of conditions and the following
-       disclaimer in the documentation and/or other materials provided
-       with the distribution.
+    * 以二进制格式再次分发必须再次生成以上版权提醒，本条件清单以及文档中的如下要求，
+      且/或其它所提供的分发材料。
 
-    * Neither the name of the NumPy Developers nor the names of any
-       contributors may be used to endorse or promote products derived
-       from this software without specific prior written permission.
+    * 不管是NumPy开发者团队成员的名字还是任何一名贡献者的名字可能要用来背书或促销
+      源自本软件的产品，即使本软件没有具体的前期书面许可也要执行背书行为。
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -31,30 +25,29 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
-The NumPy repository and source distributions bundle several libraries that are
-compatibly licensed.  We list these here.
+NumPy 仓库和源代码分发绑定了许多库，这些库都有对应的协议。我们罗列在这里。
 
-Name: Numpydoc
-Files: doc/sphinxext/numpydoc/*
-License: 2-clause BSD
-  For details, see doc/sphinxext/LICENSE.txt
+名字: Numpydoc
+文件: doc/sphinxext/numpydoc/*
+协议: 2-clause BSD
+  对于细节，查看 doc/sphinxext/LICENSE.txt
 
-Name: scipy-sphinx-theme
-Files: doc/scipy-sphinx-theme/*
-License: 3-clause BSD, PSF and Apache 2.0
-  For details, see doc/scipy-sphinx-theme/LICENSE.txt
+名字: scipy-sphinx-theme
+文件: doc/scipy-sphinx-theme/*
+协议: 3-clause BSD, PSF and Apache 2.0
+  对于细节，查看 doc/scipy-sphinx-theme/LICENSE.txt
 
-Name: lapack-lite
-Files: numpy/linalg/lapack_lite/*
-License: 3-clause BSD
-  For details, see numpy/linalg/lapack_lite/LICENSE.txt
+名字: lapack-lite
+文件: numpy/linalg/lapack_lite/*
+协议: 3-clause BSD
+  对于细节，查看 numpy/linalg/lapack_lite/LICENSE.txt
 
-Name: tempita
-Files: tools/npy_tempita/*
-License: BSD derived
-  For details, see tools/npy_tempita/license.txt
+名字: tempita
+文件: tools/npy_tempita/*
+协议: BSD derived
+  对于细节，查看 tools/npy_tempita/license.txt
 
-Name: dragon4
-Files: numpy/core/src/multiarray/dragon4.c
-License: One of a kind
-  For license text, see numpy/core/src/multiarray/dragon4.c
+名字: dragon4
+文件: numpy/core/src/multiarray/dragon4.c
+协议: One of a kind
+  对于协议内容，查看 numpy/core/src/multiarray/dragon4.c
